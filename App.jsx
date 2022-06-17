@@ -19,7 +19,7 @@ export default function App() {
       
       <NavigationContainer >
         <TaskProvider>
-        <TouchableWithoutFeedback style={{flex:1}} onPress={()=>Keyboard.dismiss()}>
+        <TouchableWithoutFeedback style={{flex:1}} onPress={()=>!isWeb && Keyboard.dismiss()}>
          <SafeAreaView style={[styles.container,{width:'100%',maxWidth:isWeb?600:'100%',alignSelf:'center'}]}>
         
            <StatusBar/>
