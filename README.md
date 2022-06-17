@@ -1,7 +1,11 @@
 # expoTodo
-todo app with automated tests
+Todo app with automated tests
 
 Steps to use the project
+
+Note: If you have not installed expo cli on your pc, please install it first by running 'sudo npm install --global expo-cli'.
+      If you had problems in installing, please follow expo documentation.[https://docs.expo.dev/get-started/installation/]
+        
 
 1. git clone the project 
 2. Install dependencies by typing 'yarn install'.
@@ -14,3 +18,5 @@ Steps to use the project
     a. Make sure your iphone and server(your pc) are on the same network.
     b. Scan QR code in terminal with expo go ios app or camera.
 7. To run automated tests, run 'yarn run test' in terminal.
+
+
