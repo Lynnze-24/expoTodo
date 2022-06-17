@@ -17,6 +17,6 @@ Note: If you have not installed expo cli on your pc, please install it first by 
 6. For ios, please downlad expo go app in appstore.
     a. Make sure your iphone and server(your pc) are on the same network.
     b. Scan QR code in terminal with expo go ios app or camera.
-7. To run automated tests, run 'yarn run test' in terminal. First time test run will takes some time but after that, it will get faster.
+7. To run automated tests, run 'yarn run test' in terminal. First time test run will take some time but after that, it will get faster.
 
 
