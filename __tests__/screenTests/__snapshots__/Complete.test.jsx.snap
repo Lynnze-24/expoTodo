@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#fffeee",
+      "flex": 1,
+      "paddingHorizontal": 20,
+    }
+  }
+  testID="CompleteScreen"
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "justifyContent": "center",
+      }
+    }
+    testID="emptyTask"
+  >
+    <Text>
+      There is no completed task
+    </Text>
+  </View>
+</View>
+`;

@@ -1,0 +1,168 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#fffeee",
+      "flexDirection": "row",
+      "justifyContent": "space-between",
+      "padding": 20,
+      "position": "relative",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <View
+      pointerEvents="none"
+      style={
+        Array [
+          Object {
+            "bottom": 0,
+            "left": 0,
+            "position": "absolute",
+            "right": 0,
+            "top": 6,
+          },
+          Object {
+            "backgroundColor": "transparent",
+            "borderColor": "#120311",
+            "borderRadius": 4,
+            "borderWidth": 1,
+          },
+        ]
+      }
+      testID="text-input-outline"
+    />
+    <View>
+      <View
+        style={
+          Array [
+            Object {
+              "paddingBottom": 0,
+            },
+            Object {
+              "minHeight": 48,
+              "paddingTop": 8,
+            },
+          ]
+        }
+      >
+        <TextInput
+          editable={true}
+          maxFontSizeMultiplier={1.5}
+          multiline={false}
+          onBlur={[Function]}
+          onChangeText={[Function]}
+          onFocus={[Function]}
+          onKeyPress={[Function]}
+          placeholder="Write a todo"
+          placeholderTextColor="rgba(0, 0, 0, 0.54)"
+          selectionColor="rgba(18,3,17,0.6)"
+          style={
+            Array [
+              Object {
+                "flexGrow": 1,
+                "margin": 0,
+                "paddingHorizontal": 14,
+                "zIndex": 1,
+              },
+              Object {
+                "height": 40,
+              },
+              Object {
+                "paddingBottom": 0,
+                "paddingTop": 0,
+              },
+              Object {
+                "color": "#000000",
+                "fontFamily": "System",
+                "fontSize": 16,
+                "fontWeight": undefined,
+                "textAlign": "left",
+                "textAlignVertical": "center",
+              },
+              false,
+              Array [
+                Object {},
+              ],
+            ]
+          }
+          testID="textInput"
+          underlineColorAndroid="transparent"
+          value=""
+        />
+      </View>
+    </View>
+  </View>
+  <View
+    accessibilityRole="button"
+    accessibilityState={
+      Object {
+        "disabled": false,
+      }
+    }
+    accessible={true}
+    focusable={true}
+    hitSlop={
+      Object {
+        "bottom": 6,
+        "left": 6,
+        "right": 6,
+        "top": 6,
+      }
+    }
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Array [
+        Object {
+          "overflow": "hidden",
+        },
+        Array [
+          Object {
+            "alignItems": "center",
+            "justifyContent": "center",
+            "margin": 6,
+            "overflow": "hidden",
+          },
+          Object {
+            "borderRadius": 15,
+            "height": 30,
+            "width": 30,
+          },
+          undefined,
+          Object {
+            "alignItems": "center",
+            "borderColor": "#120311",
+            "borderRadius": 20,
+            "borderWidth": 1,
+            "height": 40,
+            "justifyContent": "center",
+            "marginLeft": 10,
+            "marginTop": 10,
+            "width": 40,
+          },
+        ],
+      ]
+    }
+    testID="plusButton"
+  >
+    <View>
+      <Text />
+    </View>
+  </View>
+</View>
+`;

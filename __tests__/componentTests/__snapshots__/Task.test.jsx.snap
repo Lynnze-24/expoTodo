@@ -1,0 +1,129 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "borderColor": "#120311",
+      "borderRadius": 10,
+      "borderWidth": 1,
+      "flexDirection": "row",
+      "marginVertical": 5,
+      "paddingVertical": 3,
+    }
+  }
+  testID="task"
+>
+  <View
+    accessibilityLiveRegion="polite"
+    accessibilityRole="checkbox"
+    accessibilityState={
+      Object {
+        "checked": true,
+        "disabled": false,
+      }
+    }
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Array [
+        Object {
+          "overflow": "hidden",
+        },
+        Object {
+          "borderRadius": 18,
+          "height": 36,
+          "padding": 6,
+          "width": 36,
+        },
+      ]
+    }
+    testID="checkbox"
+  >
+    <View
+      collapsable={false}
+      style={
+        Object {
+          "transform": Array [
+            Object {
+              "scale": 1,
+            },
+          ],
+        }
+      }
+    >
+      <Text />
+      <View
+        style={
+          Array [
+            Object {
+              "bottom": 0,
+              "left": 0,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            },
+            Object {
+              "alignItems": "center",
+              "justifyContent": "center",
+            },
+          ]
+        }
+      >
+        <View
+          collapsable={false}
+          style={
+            Object {
+              "borderColor": "#120311",
+              "borderWidth": 0,
+              "height": 14,
+              "width": 14,
+            }
+          }
+        />
+      </View>
+    </View>
+  </View>
+  <Text
+    style={
+      Array [
+        Object {
+          "fontSize": 18,
+        },
+        Object {
+          "textDecorationLine": "line-through",
+        },
+      ]
+    }
+    testID="todoText"
+  >
+    go shopping
+  </Text>
+  <View
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+    testID="delete"
+  />
+</View>
+`;
